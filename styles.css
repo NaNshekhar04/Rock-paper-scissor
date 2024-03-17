@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400..800&display=swap');
 
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: black;
     font-family: "Roboto", sans-serif;
-    
+
 }
-.box{
+
+.box {
     border: 2px solid white;
     width: 800px;
     margin: 0 auto;
@@ -18,7 +19,7 @@ body{
     justify-content: space-between;
 }
 
-h1{
+h1 {
     font-size: 40px;
     margin: 0;
     font-weight: 600;
@@ -27,7 +28,7 @@ h1{
     letter-spacing: 4px;
 }
 
-#Computer-Score-display{
+#Computer-Score-display {
     width: 139px;
     height: 120px;
     border-radius: 9px;
@@ -40,7 +41,8 @@ h1{
     letter-spacing: 2px;
     margin-right: 29px;
 }
-#Your-Score-display{
+
+#Your-Score-display {
     width: 139px;
     height: 120px;
     border-radius: 9px;
@@ -53,22 +55,23 @@ h1{
     letter-spacing: 2px;
 }
 
-#Comp-Score-display{
-    font-size: 80px;
-    color: #252525;
-}
-#User-Score-display{
+#Comp-Score-display {
     font-size: 80px;
     color: #252525;
 }
 
-.Score-box{
+#User-Score-display {
+    font-size: 80px;
+    color: #252525;
+}
+
+.Score-box {
     display: flex;
-    
+
 }
 
 
-#rules-box{
+#rules-box {
     background-color: #a6e0c9;
     border: 7px solid white;
     width: 278px;
@@ -82,46 +85,46 @@ h1{
     z-index: 101;
 }
 
-h4{
+h4 {
     text-align: center;
     font-size: 29px;
     color: rgb(0, 0, 0);
 }
 
-#cancel-btn{
+#cancel-btn {
     position: absolute;
     right: -30px;
     top: -40px;
 }
 
-ul{
-  margin-top: -20px;
+ul {
+    margin-top: -20px;
 }
 
-li{
+li {
     font-size: 13px;
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
     padding: 2px;
     padding-right: 10px;
     font-weight: 400;
-    
-    
+
+
 }
 
 li::marker {
     color: #FFD600;
-   font-size: 15px;
+    font-size: 15px;
 }
 
-.allbtns{
-   position: absolute;
-   right: 0;
-   bottom: 10px;
-   z-index: 100;
+.allbtns {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    z-index: 100;
 }
 
-#Rules-btn{
+#Rules-btn {
     padding: 10px 30px;
     font-size: 21px;
     border-radius: 10px;
@@ -133,7 +136,8 @@ li::marker {
     margin-right: 38px;
     cursor: pointer;
 }
-#Next-btn{
+
+#Next-btn {
     padding: 10px 30px;
     font-size: 21px;
     border-radius: 10px;
@@ -147,28 +151,30 @@ li::marker {
 }
 
 
-.options{
+.options {
     display: none;
 }
-.select-options{
+
+.select-options {
     display: flex;
     justify-content: center;
     gap: 35px;
 }
 
-.select-options-2{
+.select-options-2 {
     display: flex;
     justify-content: center;
     margin-top: 60px;
-    
+
 }
 
-.line1{
+.line1 {
     transform: rotate(90deg);
     z-index: -1;
     width: 20px;
 }
-.line2{
+
+.line2 {
     transform: rotate(330deg);
     z-index: -1;
     margin-top: -150px;
@@ -176,7 +182,7 @@ li::marker {
     height: 200px;
 }
 
-.line3{
+.line3 {
     transform: rotate(30deg);
     z-index: -1;
     height: 180px;
@@ -187,14 +193,14 @@ li::marker {
 
 
 
-#match-area{
+#match-area {
     align-items: center;
     display: none;
     margin-left: 180px;
     margin-right: 180px;
 }
 
-#play-again{
+#play-again {
     display: block;
     margin: 0 auto;
     padding: 14px 30px;
@@ -205,7 +211,7 @@ li::marker {
     cursor: pointer;
 }
 
-#result{
+#result {
     position: absolute;
     margin: auto;
     margin-top: -100px;
@@ -217,7 +223,7 @@ li::marker {
     line-height: 26px;
 }
 
-.txt{
+.txt {
     font-size: 20px;
     letter-spacing: 2px;
     color: white;
@@ -226,7 +232,7 @@ li::marker {
 }
 
 
-h5{
+h5 {
     font-size: 17px;
     font-weight: 600;
     line-height: 20px;
@@ -237,54 +243,56 @@ h5{
     z-index: 100;
 }
 
-#match-title{
+#match-title {
     display: flex;
     justify-content: space-around;
     display: none;
     z-index: 100;
 }
-#win-box{
-    margin:  auto;
+
+#win-box {
+    margin: auto;
     display: none;
 }
 
-#winner-background{
+#winner-background {
     display: flex;
     justify-content: space-around;
-    grid:180px;
+    grid: 180px;
     margin-top: -130px;
     z-index: -1;
-    
+
 }
 
-#user-Winner-Background{
+#user-Winner-Background {
     opacity: 0;
 }
 
-#comp-Winner-Background{
+#comp-Winner-Background {
     opacity: 0;
 }
 
 
-#Winner-page{
-   margin: 0 auto;
-   text-align: center;
-   display: none;
+#Winner-page {
+    margin: 0 auto;
+    text-align: center;
+    display: none;
 }
 
-#txt1{
+#txt1 {
     font-size: 91px;
     font-weight: 600;
     color: white;
 }
 
-#txt2{
+#txt2 {
     font-size: 41px;
     font-weight: 600;
     color: white;
     margin-top: 25px;
 }
-#play-again-btn-win-page{
+
+#play-again-btn-win-page {
     display: block;
     margin: 50px auto;
     padding: 14px 30px;
@@ -294,7 +302,8 @@ h5{
     background-color: white;
     cursor: pointer;
 }
-#Rules-btn-win-page{
+
+#Rules-btn-win-page {
     padding: 10px 30px;
     font-size: 21px;
     border-radius: 10px;
@@ -309,7 +318,7 @@ h5{
     bottom: 10px;
 }
 
-#rules-box-winner-page{
+#rules-box-winner-page {
     background-color: #004429;
     border: 7px solid white;
     width: 278px;
@@ -323,7 +332,7 @@ h5{
     z-index: 101;
 }
 
-#cancel-btn-two{
+#cancel-btn-two {
     position: absolute;
     right: -30px;
     top: -40px;
